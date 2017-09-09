@@ -542,7 +542,7 @@
         [
           "",
           "",
-          "A few changes have been made to this starter.<br>Instead of <code>app.listen</code>, you now have <pre>const http = require('http').Server(app);\n\nhttp.listen(process.env.PORT || 3000);</pre> This is required because for the initial handshake between the server and client, http is used. Setting up our server like this allows us to have both processes use a single port.<br>Also, we have declared <code>const sessionStore = new session.MemoryStore();</code> and used <code>sessionStore</code> as the store in our express session. In our previous apps we have not done this because by default it is done automattically. It is not this way so we can reference/use the <code>sessionStore</code> in other parts of our code now. In addition, we've given our session a key to reference it easier.",
+          "A few changes have been made to this starter.<br>Instead of <code>app.listen</code>, you now have <pre>const http = require('http').Server(app);\n\nhttp.listen(process.env.PORT || 3000);</pre> This is required because for the initial handshake between the server and client, http is used. Setting up our server like this allows us to have both processes use a single port.<br>Also, we have declared <code>const sessionStore = new session.MemoryStore();</code> and used <code>sessionStore</code> as the store in our express session. In our previous apps we have not done this because by default it is done automatically. It is not this way so we can reference/use the <code>sessionStore</code> in other parts of our code now. In addition, we've given our session a key to reference it easier.",
           ""
         ]
       ],
